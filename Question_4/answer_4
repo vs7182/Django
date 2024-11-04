@@ -1,0 +1,8 @@
+1.Initialization (__init__): The Rectangle class is initialized with length and width as integer attributes.
+2. Making the Class Iterable (__iter__): We implement the __iter__ method to make Rectangle instances iterable. When iterated, it yields dictionaries with the length and width in the specified format.
+3.Usage: The example shows how to create a Rectangle instance and iterate over it to display the length and width.
+
+
+
+
+

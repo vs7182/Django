@@ -1,0 +1,3 @@
+Yes, by default, Django signals run in the same thread as the caller. This means that when a signal is sent, any receiver functions connected to that signal execute within the same thread as the code that triggered the signal.
+
+To prove this, we can use Python’s threading module to display the current thread's identity in both the caller and the signal receiver. If the thread IDs match, this will confirm that they are executed within the same thread.
